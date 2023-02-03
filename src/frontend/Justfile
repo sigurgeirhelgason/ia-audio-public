@@ -1,0 +1,13 @@
+# Aliases
+alias s := start
+
+# Recipes
+
+
+# Display available recipes
+default:
+    @just --list
+
+#Start Expo
+start:
+    expo start
